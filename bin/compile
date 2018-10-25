@@ -15,7 +15,7 @@ S3_BUCKET=${HEROKU_GEO_BUILDBACK_S3_BUCKET:-"cyberdelia-geo-buildpack"}
 
 # Parameters
 if [ "${STACK}" = "scalingo" ] ; then
-  export STACK="cedar-14"
+  export STACK="heroku-16"
 fi
 
 BUILD_DIR=$1
